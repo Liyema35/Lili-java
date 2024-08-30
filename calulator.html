@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<script>
+    function calculator(){
+   var int = document.getElementById("input1").value
+   var evaluation=eval(int)
+   console.log(evaluation)
+   document.getElementById("lily200").innerHTML=evaluation
+    }
+    
+</script>
+<body>
+    
+<input id="input1" type="text">
+<button onclick="calculator()">calculate</button>
+<p id="lily200"></p>
+
+</body>
+</html>
